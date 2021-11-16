@@ -6,38 +6,26 @@ The server is proxied via the `proxy` key in `package.json`.
 
 ## Using this project
 
-1. Clone the project, change into the directory and install the dependencies.
+1. Install the dependencies.
 
-   ```bash
-   git clone https://github.com/philnash/react-express-starter.git
-   cd react-express-starter
-   npm install
-   ```
+   ```npm install```
 
-2. Create a `.env` file for environment variables in your server.
+2. Change a `.env` file for environment variables in your server.
 
-   ```bash
-   touch .env
-   ```
+   ```touch .env```
 
 3. Start the server
 
    You can start the server on its own with the command:
 
-   ```bash
-   npm run server
-   ```
+   ```npm run server```
 
    Run the React application on its own with the command:
 
-   ```bash
-   npm start
-   ```
+   ```npm start```
 
-   Run both applications together with the command:
+   Run both applicatCreateions together with the command:
 
-   ```bash
-   npm run dev
-   ```
+   ```npm run dev```
 
    The React application will run on port 3000 and the server port 3001.
