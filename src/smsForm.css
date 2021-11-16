@@ -1,0 +1,34 @@
+.sms-form {
+    text-align: left;
+    padding: 1em;
+  }
+  .sms-form label {
+    display: block; 
+    margin-bottom: 5px;
+  }
+  .sms-form input,
+  .sms-form textarea {
+    font-size: 0.8em;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 45px;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  .sms-form div {
+    margin-bottom: 0.5em;
+  }
+  .sms-form button {
+    font-size: 0.8em;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  .sms-form.error {
+    outline: 2px solid #f00;
+    border-radius: 5px;
+  }
+  .error-message {
+    margin-top: 25px;
+    color:#f00;
+  }
